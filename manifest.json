@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ajukas.whatsapp",
+  "name": "WhatsApp",
+  "version": "1.0.0",
+  "author": "ajukas",
+  "license": "MIT",
+  "description": "Abre ou foca o WhatsApp Web e mostra quando há mensagens não lidas",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "WhatsApp",
+    "description": "Abre ou foca o WhatsApp Web e mostra quando há mensagens não lidas",
+    "category": "Apps",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
